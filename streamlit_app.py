@@ -3,4 +3,4 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-st.button("Grafikleri Oluştur")
+st.title("Merhaba, Streamlit!")
