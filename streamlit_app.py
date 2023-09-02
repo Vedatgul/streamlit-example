@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 
+# Uygulama başlığını ekleyin
+st.title("Aynı Maaşı Alan Müşteri Sayısı Uygulaması")
+
 # Kullanıcıdan müşteri sayısını alın
 num_customers = st.number_input("Müşteri Sayısını Girin", min_value=1, step=1)
 
